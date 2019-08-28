@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="AccesSante" transaction-type="JTA">
+	<jta-data-source>java:/AccesSanteDS</jta-data-source>
+	<class>sn.isi.entities.Utilisateur</class>
+	<class>sn.isi.entities.Profil</class>
+	<class>sn.isi.entities.Administrateur</class>
+	<class>sn.isi.entities.Agent</class>
+	<class>sn.isi.entities.TypeTicket</class>
+	<class>sn.isi.entities.Ticket</class>
+	<class>sn.isi.entities.Civilite</class>
+	<class>sn.isi.entities.Patient</class>
+	<class>sn.isi.entities.Rendez_vous</class>
+	<class>sn.isi.entities.Planing</class>
+	<class>sn.isi.entities.Jour_conge</class>
+	<class>sn.isi.entities.Jour_travail</class>
+	<class>sn.isi.entities.Dossier</class>
+	<class>sn.isi.entities.Pharmacien</class>
+	<class>sn.isi.entities.Medecin</class>
+	<class>sn.isi.entities.Detail_vente</class>
+	<class>sn.isi.entities.Vente_ordonnance</class>
+	<class>sn.isi.entities.Stock</class>
+	<class>sn.isi.entities.Commande</class>
+	<class>sn.isi.entities.Medicament</class>
+	<class>sn.isi.entities.Chambre</class>
+	<class>sn.isi.entities.Lit</class>
+	<class>sn.isi.entities.Facture</class>
+	<class>sn.isi.entities.Fiche_hospitalisation</class>
+	<class>sn.isi.entities.Fiche_observation</class>
+	<class>sn.isi.entities.Hospitalisation</class>
+	<class>sn.isi.entities.Infirmier</class>
+	<class>sn.isi.entities.Prise_en_charge</class>
+	<class>sn.isi.entities.Recu</class>
+	<class>sn.isi.entities.Soin</class>
+	<class>sn.isi.entities.Bulletin</class>
+	<class>sn.isi.entities.Consultation</class>
+	</persistence-unit>
+</persistence>
